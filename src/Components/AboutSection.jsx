@@ -8,9 +8,10 @@ import Btn from './Btn';
 const AboutSection = () => {
   return (
     <div>
-      <StyledText
+       
+        <StyledText
         firstPart="About"
-        secondPart="me"
+        secondPart="Me"
         firstColor="#efa94b"       // Light orange color
         secondColor="#3c0f13"      // Dark maroon color
         background="#fde5c7"       // Background color

@@ -1,0 +1,20 @@
+.divaya{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+
+.cards{
+    background-image:url(../Assets/branding.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.cards:hover{
+    background-size: 110%;
+    transition: all ease ease;
+}
