@@ -1,0 +1,21 @@
+
+
+.para{
+    width: 90%;
+    margin-left: 5%;
+    color: #570D1B;
+    font-size: 1.5vw;
+    line-height: 150%;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+
+.butn{
+    padding: 1%;
+    font-size: 1.5%;
+    margin-left: 4%;
+
+}

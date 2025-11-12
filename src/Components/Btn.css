@@ -6,6 +6,9 @@
     font-size: 1.5vw;
     font-family: Thunky;
     border: transparent;
+    padding: 1%;
     padding-left: 2%;
     padding-right:2% ;
+    border-radius: 0.5rem;
+
 }
