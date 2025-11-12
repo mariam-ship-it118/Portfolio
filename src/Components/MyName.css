@@ -1,0 +1,42 @@
+.dispa{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 45%;
+    padding-top: 5%;
+}
+
+
+
+.M{
+    font-size: 28vw;
+    color: #570D1B;
+    width: 20%;
+   font-family: Thunky;
+   margin: 0;
+   padding-top:2%;
+   margin-left: 5%;
+           font-weight: 500;
+
+}
+
+
+.name{
+    text-align: left;
+    color: #570D1B;
+    font-family: Thunky;
+    font-size: 5vw;
+}
+
+
+.styling{
+    padding-top: 0;
+    margin-top: -55%;
+
+}
+
+.solo{
+    margin-left: 35%;
+            font-weight: 100;
+
+}
