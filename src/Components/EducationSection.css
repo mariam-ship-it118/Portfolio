@@ -1,0 +1,16 @@
+.location{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-left: 5%;
+}
+
+
+.major{
+    color: #570D1B;
+    font-size: 2vw;
+}
+
+.marginL{
+    margin-left: 10%;
+}

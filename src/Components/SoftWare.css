@@ -1,0 +1,6 @@
+.polls{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
