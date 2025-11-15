@@ -5,3 +5,15 @@
     
 }
 
+.detailsbg{
+    background-image: url(../Assets/detailsbg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.mockuppic{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 50%;
+}

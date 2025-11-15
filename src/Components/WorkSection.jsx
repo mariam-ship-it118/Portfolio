@@ -25,10 +25,12 @@ const WorkSection = () => {
 
 <section className='divaya'>
     <div>
-<Link to='/apps'>
+  
    <img src={Branding} alt="" className='cards' />
-</Link>
+
+<Link to='/apps'>
       <img src={Applications} alt="" />
+      </Link>
       </div>
       
       <div>
