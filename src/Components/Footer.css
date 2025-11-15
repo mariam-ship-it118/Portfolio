@@ -1,0 +1,36 @@
+.footer{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+.footer-links{
+    color: #570D1B;
+    list-style-type: none;
+}
+
+
+.socials{
+    color: #570D1B;
+        list-style-type: none;
+
+}
+
+.footer-mid{
+    display: flex;
+    align-items: center;
+    gap: 30%;
+}
+
+.coloring{
+    font-family: thunky;
+    font-weight: 100;
+    font-size: 2vw;
+    color: #F5B14F;
+}
+
+.center{
+    text-align: center;
+    color: #570D1B;
+    margin-bottom: 3%;
+}
