@@ -1,0 +1,18 @@
+.Sector{
+    font-family: thunky;
+    font-size: 17vw;
+    color: #570D1B;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+    padding-top: 15%;
+
+}
+
+
+.stardec{
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 70%;
+}
+

@@ -5,6 +5,9 @@ import Applications from '../Assets/Apps.svg';
 import Websites from '../Assets/websites.svg';
 import Digitalart from '../Assets/digitalart.svg';
 import './WorkSection.css';
+import { Link } from 'react-router-dom';
+
+
 
 const WorkSection = () => {
     return ( 
@@ -22,7 +25,9 @@ const WorkSection = () => {
 
 <section className='divaya'>
     <div>
+<Link to='/apps'>
    <img src={Branding} alt="" className='cards' />
+</Link>
       <img src={Applications} alt="" />
       </div>
       

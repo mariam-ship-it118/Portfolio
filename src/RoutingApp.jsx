@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import AppsProjects from './Pages/AppsProjects';
 
 const RoutingApp = () => {
     return ( 
@@ -12,8 +13,8 @@ const RoutingApp = () => {
 
        <Route path='/'  element={<Home />} />
        <Route path='/about'  element={<About />} />
-
-
+       <Route path='/apps' element={<AppsProjects />} />
+       
         </Routes>
         
         
