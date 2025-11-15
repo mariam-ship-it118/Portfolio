@@ -1,0 +1,7 @@
+.lang{
+    display: flex;
+    gap: 8%;
+    margin-left: 5%;
+    font-size: 1.5vw;
+    color: #570D1B;
+}

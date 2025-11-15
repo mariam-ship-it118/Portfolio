@@ -2,6 +2,7 @@ import React from 'react';
 import StyledText from './TitlesSections';
 import './AboutSection.css';
 import Btn from './Btn';
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,7 +21,14 @@ const AboutSection = () => {
       <p className='para under'>My resume</p>
       
       <div className='butn'>
+
+
+        
+ <Link to="/about">
       <Btn name='Discover more' />
+        
+        </Link>
+   
 
       </div>
 
