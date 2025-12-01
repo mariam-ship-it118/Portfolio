@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Btn.css';
-
+import './AboutSectionRes.css';
 
 const Btn = (props) => {
     return ( 

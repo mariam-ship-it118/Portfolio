@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './AboutSectionRes.css';
 const Titles = ({ firstPart, secondPart, firstColor, secondColor, background }) => {
   const containerStyle = {
      marginleft: '5%',
@@ -12,8 +12,8 @@ const Titles = ({ firstPart, secondPart, firstColor, secondColor, background }) 
 
   return (
     <div style={containerStyle} className='ml'>
-      <span style={{ color: firstColor || '#efb55a' }}>{firstPart}</span>
-      <span style={{ color: secondColor || '#3a0b0b' }} className='partof'>{secondPart}</span>
+      <span className='fntsz' style={{ color: firstColor || '#efb55a' }}>{firstPart}</span>
+      <span  style={{ color: secondColor || '#3a0b0b' }} className='partof fntsz'>{secondPart}</span>
     </div>
   );
 };
