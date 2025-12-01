@@ -27,27 +27,27 @@ const SoftWare = () => {
 
     <section className='polls'>
      <Applicationss thesoft='Figma' />
-     <img src={figma} alt="freelancer" />
+     <img src={figma} alt="freelancer" className='pollmobile' />
     </section>
  <section className='polls'>
      <Applicationss thesoft='Illustrator' />
-     <img src={illustrator} alt="creative designer" />
+     <img src={illustrator} alt="creative designer" className='pollmobile' />
     </section>
 
  <section className='polls'>
      <Applicationss thesoft='Photoshop' />
-     <img src={photoshop} alt="graphic designer" />
+     <img src={photoshop} alt="graphic designer" className='pollmobile' />
     </section>
 
         <section className='polls'>
      <Applicationss thesoft='After Effects' />
-     <img src={af} alt="visual designer" />
+     <img src={af} alt="visual designer" className='pollmobile' />
     </section>
 
 
  <section className='polls'>
      <Applicationss thesoft='Visual Studio Code' />
-     <img src={vsc} alt="freelancer designer" />
+     <img src={vsc} alt="freelancer designer" className='pollmobile' />
     </section>
 
 

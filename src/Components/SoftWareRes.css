@@ -2,7 +2,7 @@
 
 .polls{
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 10%;
     align-items: flex-start;
 }
 
@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+
+.pollmobile{
+    width: 80%;
+}
 
 
 
