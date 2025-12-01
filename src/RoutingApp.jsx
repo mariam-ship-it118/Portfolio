@@ -5,6 +5,9 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import AppsProjects from './Pages/AppsProjects';
 import ProjectDetails from './Pages/ProjectDestails';
+import AboutMeVisualDesigner from './Pages/about-me-visual-designer';
+import BlogsMain from './Pages/BlogsMain';
+import LookingForVisualDesigner from './Pages/Looking-for-a-visual-designer';
 
 const RoutingApp = () => {
     return ( 
@@ -15,8 +18,15 @@ const RoutingApp = () => {
        <Route path='/'  element={<Home />} />
        <Route path='/about'  element={<About />} />
        <Route path='/apps' element={<AppsProjects />} />
-              <Route path='/projectdetails' element={<ProjectDetails />} />
+         <Route path='/projectdetails' element={<ProjectDetails />} />
+       <Route path='/me' element={<AboutMeVisualDesigner />}/>
+      <Route path='/blogs' element={<BlogsMain />} />
+      
+            <Route path='/blogs/looking-for-a-visual-designer' element={<LookingForVisualDesigner />} />
 
+      
+      
+      
         </Routes>
         
         

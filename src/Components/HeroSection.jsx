@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './HeroSectionRes.css';
 import './HeroSection.css';
 import MyName from './MyName';
 import VisualDesigner from './VisualDesigner';
@@ -17,7 +17,7 @@ const HeroSection = () => {
 <Porto />
             
             </div>   
-<img src={Cinnabon} alt="" />
+<img src={Cinnabon} alt="" className='cinnabonaya' />
             </section>    
 
         

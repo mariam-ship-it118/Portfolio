@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './VisualDesigner.css';
-
+import './VisualDesignerRes.css';
 
 const VisualDesigner = () => {
     return ( 

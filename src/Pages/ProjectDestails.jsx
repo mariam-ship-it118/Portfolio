@@ -8,7 +8,7 @@ import ChallengesSection from '../Components/ChallengesSection';
 import ColorPaletteSection from '../Components/ColorPalleteSection';
 import Wireframes from '../Components/Wireframes';
 import DesignFrames from '../Components/DesignFrames';
-
+import Footer from '../Components/Footer';
 
 
 const ProjectDetails = () => {
@@ -35,6 +35,7 @@ const ProjectDetails = () => {
 
         </section>
 
+    <Footer />
 
         
         

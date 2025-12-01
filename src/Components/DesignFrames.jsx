@@ -7,8 +7,8 @@ const DesignFrames = () => {
         <>
         
              <StyledText
-        firstPart="Color"
-        secondPart="Palette"
+        firstPart="Design"
+        secondPart="Frames"
         firstColor="#efa94b"       // Light orange color
         secondColor="#3c0f13"      // Dark maroon color
         background="#fde5c7"       // Background color

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './MyName.css';
-
+import './MyNameRes.css';
 
 
 const MyName = () => {
