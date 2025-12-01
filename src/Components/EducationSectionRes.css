@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+
+.edu{
+    font-size: 5vw;
+}
+
+
+.major{
+    font-size: 4vw;
+}
+
+
+.firstlocation{
+    margin-top: -10%;
+}
+
+
+}

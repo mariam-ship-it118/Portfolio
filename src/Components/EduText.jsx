@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './EduText.css';
+import './EducationSectionRes.css';
 
 
 const EduText = (props) => {

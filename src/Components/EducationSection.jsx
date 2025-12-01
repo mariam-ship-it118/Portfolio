@@ -3,6 +3,7 @@ import './EducationSection.css';
 import StyledText from './TitlesSections';
 import dash from '../Assets/dash.svg';
 import EduText from './EduText';
+import './EducationSectionRes.css';
 
 const EducationSection = () => {
     return ( 
@@ -15,7 +16,7 @@ const EducationSection = () => {
         background="#fde5c7"       // Background color
       />
 
-        <section className='location'>
+        <section className='location firstlocation'>
             <img src={dash} alt="UI designer" />
             <EduText place='Sacret Heart Ghamra' />
         </section>
