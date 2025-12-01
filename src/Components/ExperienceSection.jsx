@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import StyledText from './TitlesSections';
 import './ExperienceSection.css';
+import './ExperienceSectionRes.css';
 
 const ExperienceSection = (props) => {
     return ( 

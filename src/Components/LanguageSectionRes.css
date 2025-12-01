@@ -1,5 +1,15 @@
-.lang{
-    font-size: 4vw;
-    flex-direction: column;
-    margin-left: 10%;
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .lang{
+        font-size: 4vw;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: -13%;
+        padding: 0;
+    }
+
 }
