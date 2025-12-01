@@ -7,7 +7,7 @@ import illustrator from '../Assets/illustrator.svg';
 import photoshop from '../Assets/photoshop.svg';
 import af from '../Assets/aftereffects.svg';
 import vsc from '../Assets/vsc.svg';
-
+import './SoftWareRes.css';
 
 
 

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Applications.css';
+import './SoftWareRes.css';
+
 
 const Applicationss = (props) => {
     return ( 
