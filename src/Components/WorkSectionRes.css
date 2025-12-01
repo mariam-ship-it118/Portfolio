@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+
+.divaya{
+    flex-direction: column;
+    
+}
+
+
+.cards{
+  
+    width: 90%;
+}
+
+.firstcard{
+        margin-top: -10%;
+
+}
+
+
+
+
+
+
+}

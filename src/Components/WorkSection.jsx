@@ -6,7 +6,7 @@ import Websites from '../Assets/websites.svg';
 import Digitalart from '../Assets/digitalart.svg';
 import './WorkSection.css';
 import { Link } from 'react-router-dom';
-
+import './WorkSectionRes.css';
 
 
 const WorkSection = () => {
@@ -26,16 +26,16 @@ const WorkSection = () => {
 <section className='divaya'>
     <div>
   
-   <img src={Branding} alt="" className='cards' />
+   <img src={Branding} alt="" className='cards firstcard' />
 
 <Link to='/apps'>
-      <img src={Applications} alt="" />
+      <img src={Applications} alt="" className='cards' />
       </Link>
       </div>
       
       <div>
-      <img src={Websites} alt="" />
-        <img src={Digitalart} alt="" />
+      <img src={Websites} alt="" className='cards' />
+        <img src={Digitalart} alt="" className='cards' />
 </div>
 
  
