@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import StyledText from './TitlesSections';
 import './LanguagesSection.css';
+import './LanguageSectionRes.css';
 
 const LanguagesSection = () => {
     return ( 
