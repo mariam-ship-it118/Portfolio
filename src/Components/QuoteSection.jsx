@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './QuoteSection.css';
 import mepic from '../Assets/mepic.svg';
+import './QuoteSectionRes.css';
+
+
 const QuoteSection = (props) => {
     return ( 
         <>
