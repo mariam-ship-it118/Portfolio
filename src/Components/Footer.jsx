@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../Assets/logo.svg';
 import './Footer.css';
+import './FooterRes.css';
+
+
 
 const Footer = () => {
     return ( 
@@ -12,7 +15,7 @@ const Footer = () => {
   </div>
 
   <div class="footer-mid">
-        <img src={logo} alt="visual designer"/>
+        <img src={logo} alt="visual designer" className='footer-logo'/>
 
     <ul class="footer-links">
       <li>Home</li>

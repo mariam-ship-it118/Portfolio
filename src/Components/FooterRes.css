@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+
+.footer-mid{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.footer-logo{
+    display: flex;
+    width: 8%;
+    justify-content: space-around;
+}
+
+.coloring{
+    font-size:5vw;
+    
+}
+
+.footer-links{
+    text-align: center;
+   margin-left: -7%;
+}
+
+.socials{
+    margin-left: 1%;
+}
+
+
+.footer-bottom{
+    font-size: 2vw;
+    padding-bottom: 3%;
+}
+
+
+.footer{
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
