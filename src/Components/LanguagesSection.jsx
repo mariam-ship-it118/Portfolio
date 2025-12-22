@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import StyledText from './TitlesSections';
 import './LanguagesSection.css';
 import './LanguageSectionRes.css';
-
 const LanguagesSection = () => {
     return ( 
         <>
@@ -16,11 +15,11 @@ const LanguagesSection = () => {
         
 
 <section className='lang'>
-    <p>arabic</p>
+    <p>Arabic</p>
     <p>English</p>
-    <p>French</p>
+    <p> French</p>
 </section>
-
+ 
 
         </>
      );

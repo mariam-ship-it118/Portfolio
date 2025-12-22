@@ -26,16 +26,37 @@ const WorkSection = () => {
 <section className='divaya'>
     <div>
   
-   <img src={Branding} alt="" className='cards firstcard' />
+<div className='wida'>
+
+   <img src={Branding} alt="digital artist" className='cards firstcard' />
+</div>
 
 <Link to='/apps'>
-      <img src={Applications} alt="" className='cards' />
+
+<div className='wida sovaa'>
+
+      <img src={Applications} alt="ux designer" className='cards' />
+      <div className='overlayer'>
+           <h3>Graphic Design</h3>
+      </div>
+</div>
       </Link>
       </div>
       
       <div>
-      <img src={Websites} alt="" className='cards' />
-        <img src={Digitalart} alt="" className='cards' />
+
+        
+<div className='wida'>
+      <img src={Websites} alt="ui designer freelancer" className='cards' />
+
+</div>
+
+
+<div className='wida sovaa'>
+
+        <img src={Digitalart} alt="graphic designer" className='cards' />
+
+</div>
 </div>
 
  

@@ -20,3 +20,27 @@
 
 }
 
+
+@media only screen and (max-width: 600px) {
+
+
+
+.para{
+    width: 90%;
+    margin-left: 5%;
+    color: #570D1B;
+    font-size: 3vw;
+    line-height: 150%;
+}
+
+
+
+
+.butn{
+    padding: 1%;
+    font-size:3%;
+    margin-left: 4%;
+
+}
+
+}

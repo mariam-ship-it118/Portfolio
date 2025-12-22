@@ -3,32 +3,150 @@ body{
     background-color: #FFECD2;
     margin: 0;
 }
-nav{
-    position: fixed;
-    width: 100%;
-margin: 0;
+
+
+@font-face {
+  font-family:thunky ;
+  src: url(../Assets/Thunky\ DEMO.otf);
 }
+
+
+h1 h2 h3 h4 h5{
+  font-family: thunky;
+}
+
+
+.over:hover{
+    overflow: hidden;
+}
+
+
+
+.reachbtn{
+    padding: 0%;
+    background-color: transparent;
+    border: 2px solid #570D1B;
+    font-size: 1.7vw;
+    font-family: thunky;
+    border-radius: 1rem;
+    padding-left: 3%;
+    padding-right:3% ;
+    height: 6vh;
+    transition: transform 1s;
+  transition-duration: 800ms;
+  color: #570D1B;
+   transition-timing-function: ease-in;
+   transition-delay:1s ;
+}
+
+.reachbtn:hover{
+   background-color: #570D1B;
+   border: transparent;
+   color: #FFECD2;
+   transform: scaleY(6px);
+  
+}
+
+@keyframes parallex {
+    from{
+        transform: translatey(-300px);
+    }
+    to{
+        transform: translatey(0);
+    }
+}
+
+
 .dis{
+    display: flex;
+    gap: 39%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.hero{
+    margin-left: 5%;
+}
+
+
+@keyframes slider {
+    from{
+       transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+    .burger-toggle {
+  display: none;
+}
+
+.burger-btn {
+
+  top: 20px;
+  left: 20px; /* change to right: 20px if you want */
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.burger-icon {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin-top: 5%;
+}
+
+.sidebar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background-color: var(--Background);
+  padding: 70px 20px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin-left: 5%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-link {
+  color: #FFECD2;
+  font-family: thunky;
+  text-decoration: none;
+  font-size: 3vw;
+  padding-left: 5%;
+  transition: opacity 0.2s ease;
+}
+
+li{
   list-style-type: none;
 }
 
-@font-face {
-    font-family:Thunky ;
-    src: url(../Assets/Thunky\ DEMO.otf);
+.sidebar-link:hover {
+  opacity: 0.8;
+  color: var(--Primary);
 }
 
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  z-index: 999;
+  cursor: pointer;
+}
 
+/* When checkbox is checked (menu open) */
+.burger-toggle:checked ~ .sidebar-menu {
+  transform: translateX(0);
+}
 
-.btns:hover{
-    transition: tranform;
-    transform: translateX(5px);
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out;
-    
-
-
+.burger-toggle:checked ~ .sidebar-overlay {
+  display: block;
 }

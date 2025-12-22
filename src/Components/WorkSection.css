@@ -1,9 +1,18 @@
 .divaya{
     display: flex;
     width: 90%;
+    gap: 10%;
     margin-left: 5%;
 
 }
+
+
+.wida{
+    overflow: hidden;
+    border-radius: 2rem;
+    width: 100%;
+}
+
 
 
 .cards{
@@ -11,11 +20,49 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    border-radius: 2rem;
+    transform: scale(1);
+
+ 
 
 }
 
 .cards:hover{
-    background-size: 110%;
+ 
     transition: all ease ease;
+    transform: scale(1.2);
+    border-radius: 2rem;
+    transition-duration: 800ms;
+   
+}
+
+
+.sovaa{
+    margin-top: 2%;
+}
+  
+.overlayer{
+      
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-family: thunky;
+      background-color: rgba(0, 0, 0, 0.736); /* Semi-transparent background */
+      color: white;
+      display: flex; /* For centering content */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0; /* Initially hidden */
+      visibility: hidden; /* Also hidden for accessibility */
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+}
+
+
+.overlayer:hover{
+    opacity: 1;
+ 
 }

@@ -12,7 +12,11 @@ import QuoteSection from '../Components/QuoteSection';
 import Footer from '../Components/Footer';
 
 
+
 const Home = () => {
+
+
+    
     return ( 
 
 

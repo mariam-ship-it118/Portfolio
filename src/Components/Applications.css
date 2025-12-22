@@ -6,4 +6,17 @@
     margin-left: 5%;
 }
 
+@media only screen and (max-width: 600px) {
+
+.software{
+    font-family: Thunky;
+    font-size: 8vw;
+    color: #570D1B;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+
+
+}
 

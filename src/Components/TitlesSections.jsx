@@ -6,7 +6,6 @@ const Titles = ({ firstPart, secondPart, firstColor, secondColor, background }) 
     fontFamily: 'Thunky',
     fontWeight: '100',
     fontSize: '7vw',
-    padding: '20px',
     display: 'inline-block',
   };
 

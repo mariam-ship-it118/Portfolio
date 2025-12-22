@@ -8,7 +8,7 @@ import photoshop from '../Assets/photoshop.svg';
 import af from '../Assets/aftereffects.svg';
 import vsc from '../Assets/vsc.svg';
 import './SoftWareRes.css';
-
+import './Applications.css';
 
 
 

@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 const ProjectCards = () => {
     return ( <>  
     <section className='centerCards'> 
-<Link to='/projectdetails'>
-
     <img src={app1} alt="UI/UX Designer freelancer" className=''/>
-    </Link>
+<Link to='/projectdetails'>   
         <img src={app2} alt="UI/UX Designer freelancer" className=''/>
+
+    </Link>
         <img src={app3} alt="UI/UX Designer freelancer" className='spare'/>
       
     </section>  

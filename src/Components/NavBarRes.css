@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 600px) {
+
+.dis{
+    gap: 25%;
+    align-items: center;
+}
+
+
+.reachbtn{
+   font-size: 5vw;
+}
+
+
+
+.sidebar-link {
+  color: #FFECD2;
+  font-family: thunky;
+  text-decoration: none;
+  font-size: 8vw;
+  padding-left: 5%;
+  transition: opacity 0.2s ease;
+}
+
+}
