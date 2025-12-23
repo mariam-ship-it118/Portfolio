@@ -85,12 +85,12 @@ const AboutMeVisualDesigner = () => {
 
 
         </section>
-
-
+     
+    
 <Footer/>
+    
 
-
-
+     
 
 
 

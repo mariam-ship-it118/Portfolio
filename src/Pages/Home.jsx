@@ -10,6 +10,7 @@ import LanguagesSection from '../Components/LanguagesSection';
 import ExperienceSection from '../Components/ExperienceSection';
 import QuoteSection from '../Components/QuoteSection';
 import Footer from '../Components/Footer';
+import ContactForm from '../Components/ConstactForm';
 
 
 
@@ -30,8 +31,13 @@ const Home = () => {
 <LanguagesSection />
 <ExperienceSection sub='Designed a complete visual identity for a client, from concept to final logo. Focused on storytelling through design, creating a bold and memorable brand mark. Managed the full process including research, sketching, digital design, and presentation.' />
 <QuoteSection authur='Stefan Sagmeister' quote='“Worrying solves nothing. Creativity solves everything.”' book='-Things I Have Learned in My Life So Far' />
+    {/* contact */}
+    <section className='margnnz'>
+    <ContactForm/>
+
+
+    </section>
     <Footer />
-    
     
     
     

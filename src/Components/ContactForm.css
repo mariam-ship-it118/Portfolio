@@ -1,0 +1,53 @@
+.flexato{
+    color: #570D1B;
+    font-family: poppins;
+    align-items: center;
+    margin-top: 2%;
+     
+}
+
+.ninety{
+    border: 2px solid #570D1B;
+    border-radius: 0.5rem;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    width: 70%;
+    background-color: transparent;
+}
+
+.labels{
+    padding-left: 1%;  
+    margin-right: 2%;   
+}
+
+.addbtn{
+    font-family: thunky;
+    font-size: 2vw;
+    color: #F5B14F;
+    background-color: #570D1B;
+    border: transparent;
+    padding: 2%;
+    padding-bottom:0.5%  ;
+    padding-top:   0.5%;
+    border-radius: 1rem;
+    margin-top: 3%;
+
+}
+
+
+.gotoleft{
+    margin-left: 15%;
+}
+
+
+.margnnz{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.fio{
+    display: flex;
+    gap: 0;
+    align-items: start;
+}
