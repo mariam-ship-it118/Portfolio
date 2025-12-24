@@ -1,38 +1,57 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import StyledText from './TitlesSections';
-import './AboutSection.css';
 import Btn from './Btn';
 import { Link } from 'react-router-dom';
-import './AboutSectionRes.css';
-
+import { supabase } from '../Supabase';
+import './AboutSection.css';
 
 const AboutSection = () => {
+  const [loading, setLoading] = useState(true);
+  const [info, setInfo] = useState([]);
+
+  useEffect(() => {
+    async function getAllProjectsAPI() {
+      const { data, error } = await supabase
+        .from('Home')
+        .select('*')  .eq('id', 1) // replace 1 with the ID of the quote you want
+        .single();    // ensures only one row is returned
+;
+
+      if (!error) {
+        setInfo(data);
+        setLoading(false);
+      }
+    }
+
+    getAllProjectsAPI();
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+
   return (
     <div>
-       
-        <StyledText
+      <StyledText
         firstPart="About"
         secondPart="Me"
-        firstColor="#efa94b"       // Light orange color
-        secondColor="#3c0f13"      // Dark maroon color
-        background="#fde5c7"       // Background color
+        firstColor="#efa94b"
+        secondColor="#3c0f13"
+        background="#fde5c7"
       />
-     <p className='para sola'>Hi I am mariam, I am 21 years old, i live in Cairo. i studied at Egypt University of Informatics.I studied UI/UX design, 3d modelling, Branding , UX Research, Video Editing, UX design, UI design, Graphic Design at Uni.  I also took an external graphic design course. I am very passionate about ART ever since childhood. i took lots of different course of art. I started drawing at the age of 5. after taking UI/UX design and graphic design my skill were best in UI design and Graphic design so i decided to improve these skills at most, I worked freelancer as a Graphic designer so I have experience working and I got a great feedback from my clients.</p>
-      <p className='para under'>My resume</p>
-      
-      <div className='butn'>
 
+  
+        <p key={info.id} className="para sola">
+          {info.textP}
+        </p>
+  
+      <p className="para under">My resume</p>
 
-        
- <Link to="/aboutus">
-      <Btn name='Discover more' />
-        
+      <div className="butn">
+        <Link to="/me">
+          <Btn name="Discover more" />
         </Link>
-   
-
       </div>
-
     </div>
   );
 };
+
 export default AboutSection;

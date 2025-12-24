@@ -5,16 +5,16 @@ import TypeSection from '../Components/TypeSection';
 import artme from '../Assets/about_me.svg';
 import StyledText from '../Components/TitlesSections';
 import Footer from '../Components/Footer';
-
-
-const AboutMeVisualDesigner = () => {
-    return ( 
-        <>
-        <NavBar />
-         <TypeSection sectionname='About me' />
-        
+            
+   
+const AboutMeVisualDesigner = () => {      
+    return (    
+        <>    
+        <NavBar />      
+         <TypeSection sectionname='About me' />  
+            
         <img src={artme} alt="visual designer"  className='mepeek'/>
-    
+           
     <section>
 
 <section className='imp'>
@@ -30,6 +30,7 @@ const AboutMeVisualDesigner = () => {
         </section>
        
 <p className='sizetext'>
+    
     Hi I am mariam, I am 21 years old, i live in Cairo. i studied at Egypt University of Informatics.I studied UI/UX design, 3d modelling, Branding , UX Research, Video Editing, UX design, UI design, Graphic Design at Uni.  I also took an external graphic design course. I am very passionate about ART ever since childhood. i took lots of different course of art. I started drawing at the age of 5. after taking UI/UX design and graphic design my skill were best in UI design and Graphic design so i decided to improve these skills at most, I worked freelancer as a Graphic designer so I have experience working and I got a great feedback from my clients.
 
 </p>

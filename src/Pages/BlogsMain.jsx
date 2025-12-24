@@ -4,9 +4,10 @@ import NavBar from '../Components/NavBar';
 import BlogsCards from '../Components/BlogsCards';
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
-
-
+import { supabase } from '../Supabase';
 const BlogsMain = () => {
+
+  
     return ( <>
     
     <NavBar />

@@ -1,31 +1,30 @@
 import React, { Component } from 'react';
 import NavBar from '../Components/NavBar';
-
-import HeroSection from '../Components/HeroSection';
-import AboutSection from '../Components/AboutSection';
-import WorkSection from '../Components/WorkSection';
-import SoftWare from '../Components/SoftWare';
-import EducationSection from '../Components/EducationSection';
-import LanguagesSection from '../Components/LanguagesSection';
-import ExperienceSection from '../Components/ExperienceSection';
-import QuoteSection from '../Components/QuoteSection';
-import Footer from '../Components/Footer';
-import ContactForm from '../Components/ConstactForm';
-
-
-
-const Home = () => {
-
-
+import HeroSection from '../Components/HeroSection';   
+import AboutSection from '../Components/AboutSection';     
+import WorkSection from '../Components/WorkSection';        
+import SoftWare from '../Components/SoftWare';    
+import EducationSection from '../Components/EducationSection';   
+import LanguagesSection from '../Components/LanguagesSection';   
+import ExperienceSection from '../Components/ExperienceSection';    
+import QuoteSection from '../Components/QuoteSection';   
+import Footer from '../Components/Footer';   
+import ContactForm from '../Components/ConstactForm';   
+                                        
+           
+           
+const Home = () => {    
+          
+        
+       
+    return (     
+          
     
-    return ( 
-
-
         <>
-        <NavBar />
-  <HeroSection />
-<AboutSection />
-<WorkSection />
+        <NavBar />  
+  <HeroSection />  
+<AboutSection />   
+<WorkSection />   
 <SoftWare />
 <EducationSection />
 <LanguagesSection />

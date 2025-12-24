@@ -14,7 +14,7 @@ const Titles = ({ firstPart, secondPart, firstColor, secondColor, background }) 
       <span className='fntsz' style={{ color: firstColor || '#efb55a' }}>{firstPart}</span>
       <span  style={{ color: secondColor || '#3a0b0b' }} className='partof fntsz'>{secondPart}</span>
     </div>
-  );
-};
+  ); 
+}; 
 
 export default Titles;

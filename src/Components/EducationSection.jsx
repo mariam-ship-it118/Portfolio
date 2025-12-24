@@ -6,6 +6,7 @@ import EduText from './EduText';
 import './EducationSectionRes.css';
 
 const EducationSection = () => {
+  
     return ( 
         <>
           <StyledText
