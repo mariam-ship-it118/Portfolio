@@ -10,7 +10,7 @@ import ExperienceSection from '../Components/ExperienceSection';
 import QuoteSection from '../Components/QuoteSection';   
 import Footer from '../Components/Footer';   
 import ContactForm from '../Components/ConstactForm';   
-                                        
+                                            
            
            
 const Home = () => {    
